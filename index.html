@@ -526,24 +526,19 @@
           <a href="https://www.instagram.com/abdulvaliy10/?next=%2F" class="social-icon"><i class="fab fa-instagram"></i></a>
         </div>
       <div class="contact-form-container" data-aos="fade-left" data-aos-delay="300">
-        <form action="https://formsubmit.co/abdulvaliysaid@gmail.com" method="post" class="contact-form" id="contact-form">
-          <div class="form-group">
-            <input type="text" id="name" name="name" placeholder="Your Name" required />
-            <label for="name">Your Name</label>
-          </div>
-          <div class="form-group">
-            <input type="email" id="email" name="email" placeholder="Your Email" required />
-            <label for="email">Your Email</label>
-          </div>
-          <div class="form-group">
-            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-            <label for="message">Your Message</label>
-          </div>
-          <button type="submit" class="btn btn-primary submit-btn">
-            <span>Send Message</span>
-            <i class="fas fa-paper-plane"></i>
-          </button>
-        </form>
+        <form action="https://formsubmit.co/abdulvaliydev@gmail.com" method="POST">
+  <!-- Hidden input to disable captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Optional: redirect after success -->
+  <input type="hidden" name="_next" value="https://yourdomain.netlify.app/thank-you.html">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
       </div>
     </div>
   </section>
