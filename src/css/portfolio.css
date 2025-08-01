@@ -1891,72 +1891,7 @@ section {
   border-color: var(--accent);
 }
 
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  position: relative;
-}
 
-.form-group label {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  font-weight: 500;
-  margin-bottom: 0.3rem;
-}
-
-.form-group input,
-.form-group textarea {
-  padding: 1rem;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  color: var(--text);
-  font-size: 1rem;
-  transition: var(--transition);
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  border-color: var(--accent);
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(94, 53, 177, 0.1);
-}
-
-.form-group textarea {
-  min-height: 150px;
-  resize: vertical;
-}
-
-.form-validation {
-  position: absolute;
-  right: 1rem;
-  top: 2.5rem;
-  font-size: 1rem;
-  opacity: 0;
-  transition: var(--transition);
-}
-
-.form-validation.valid {
-  color: var(--success);
-  opacity: 1;
-}
-
-.form-validation.invalid {
-  color: var(--error);
-  opacity: 1;
-}
-
-.form-error {
-  font-size: 0.8rem;
-  color: var(--error);
-  margin-top: 0.3rem;
-  display: none;
-}
-
-.form-error.show {
-  display: block;
-}
 
 button[type="submit"] {
   padding: 1rem 2rem;
